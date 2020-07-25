@@ -14,7 +14,7 @@ There are the data provided by Udacity and Arvato. As a result of the analyzes t
 3. [Files](#3)
 4. [Support files](#4)
 5. [Instructions](#5)
-6. [Analysis process inside the project](#6)
+6. [Methodology](#6)
 7. [Result](#7)
 8. [Post of Medium](#8)
 9. [Source, Licensing, Authors, and Acknowledgements](#9)
