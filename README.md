@@ -61,11 +61,13 @@ In this project, some of the functions used are developed inside the file **util
 <a name="5"></a>
 # Instructions
 To make use of the project, you must access to the repository notebooks and execute the commands presented in it. This project uses 3 jupyter notebooks and a python file, which must be executed in the order indicated:
-1. ../000_Preprocessing.ipynb         : Contain data preprocessing and feature engineering.
-2. ../001_Unsupervised_Learning.ipynb : Contain Unsupervised learning techniques.
-3. ../002_SupervisedLearning.ipynb    : Contain supervised learning models, metrics evaluation, and prediction for Kaggle submission.
-4. ../myutils/utils.py                : Contain Supported file. For project, some of the functions used are developed inside this file.
-5. ../Arvato-Report of CS.pdf         : Contain report of this project
+1. ../000_Preprocessing.ipynb             : Contain data preprocessing and feature engineering.
+2. ../001_Unsupervised_Learning.ipynb     : Contain Unsupervised learning techniques.
+3. ../002_SupervisedLearning.ipynb        : Contain supervised learning models, metrics evaluation, and prediction for Kaggle submission.
+4. ../myutils/utils.py                    : Contain Supported file. For project, some of the functions used are developed inside this file.
+5. ../Arvato-Report of CS.pdf             : Contain report of this project
+6. ../Last/data/kaggle_submission_file.csv: Kaggle Submission file for compedition of predictions
+
 <a name="6"></a>
 # Analysis process inside the project
 ### Data cleaning and preprocessing
@@ -76,6 +78,9 @@ Using the Kmean model, creating high-potential customer classes with Unsupervise
 
 ### Mailout campaigns forecasting with Supervised Learning
 Implementation of supervised models such as LGBM, XGBoost, Catboost, Random Forest, Logistic Regression, and finally VotingClassifier for the forecasting of future company campaigns seeking to improve their performance.
+
+### Kaggle Competition
+This used the chosen model to make predictions on the campaign data as part of a **Kaggle Competition**.
 
 <a name="7"></a>
 # Results
