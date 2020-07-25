@@ -79,7 +79,8 @@ Implementation of supervised models such as LGBM, XGBoost, Catboost, Random Fore
 
 <a name="7"></a>
 # Results
-The detailed analysis of the results can be read in this **[Medium post](https://medium.com/@huseyinelci2000/finding-new-customers-using-machine-learning-f03857c7f965)** or in **Arvato-Report of Customer Segmentation.pdf**
+* The detailed analysis of the results can be read in this **[Medium post](https://medium.com/@huseyinelci2000/finding-new-customers-using-machine-learning-f03857c7f965)** or in **Arvato-Report of Customer Segmentation.pdf**
+* **Kaggle** Submissoin files -> '../Last/data/kaggle_submission_file.csv' [Click it](https://github.com/huseyinelci2000/CustomerSegmentation/blob/master/Last/data/kaggle_submission_file.csv)
 
 <a name="8"></a>
 # Post to Medium
