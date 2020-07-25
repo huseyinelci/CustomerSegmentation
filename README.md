@@ -69,7 +69,9 @@ To make use of the project, you must access to the repository notebooks and exec
 6. ../Last/data/kaggle_submission_file.csv: Kaggle Submission file for compedition of predictions
 
 <a name="6"></a>
-# Analysis process inside the project
+# Methodology
+Analysis process inside the project consists of 4 main sections.
+
 ### Data cleaning and preprocessing
 In this first section, an initial display of the relevant data and metrics were carried out, their cleaning as well as feature engineering for further steps.
 
@@ -77,7 +79,7 @@ In this first section, an initial display of the relevant data and metrics were 
 Using the Kmean model, creating high-potential customer classes with Unsupervised Learning method within the general population.
 
 ### Mailout campaigns forecasting with Supervised Learning
-Implementation of supervised models such as LGBM, XGBoost, Catboost, Random Forest, Logistic Regression, and finally VotingClassifier for the forecasting of future company campaigns seeking to improve their performance.
+Implementation of supervised models such as LGBM, XGBoost, Catboost, Random Forest, Logistic Regression, and finally **VotingClassifier** for the forecasting of future company campaigns seeking to improve their performance.
 
 ### Kaggle Competition
 This used the chosen model to make predictions on the campaign data as part of a **Kaggle Competition**.
@@ -92,7 +94,7 @@ This used the chosen model to make predictions on the campaign data as part of a
 **[Medium post](https://medium.com/@huseyinelci2000/finding-new-customers-using-machine-learning-f03857c7f965)**
 
 <a name="9"></a>
-## Source, Licensing, Authors, and Acknowledgements
+# Source, Licensing, Authors, and Acknowledgements
 
 #### Source and  Licensing
 The **dataset** owner is [Bertelsmann-Arvato](https://www.bertelsmann.com/) The data used for this project not publicly available. It was given for a short time, only to the participants in the competition. You may use only software code pages.
