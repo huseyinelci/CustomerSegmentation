@@ -85,10 +85,11 @@ Implementation of supervised models such as Lightgbm, XGBoost, Catboost, Random 
 This used the chosen model to make predictions on the campaign data as part of a **Kaggle Competition**.
 
 <a name="7"></a>
+
 # Results
-* This process is classifier. Because of this, I choose and tried *Lightgbm, XGBoost, CatBoost, Random Forest, Logistic Regression classifier models* by the library of Sklearn. My best result for *ROC-AUC Score* from these models is *0.79613 from Lightgbm*.
-* After new oversampling to data set improved best *ROC-AUC scored* around *0.8063 from Lightgbm* and other one is *0,8588 from VotingClassifier*. Use predicting of the test label using this *VotingClassifier* model.
-* Also Mailout-Test results are  {1: 3531, 0 : 33669} with VotingClassifier model.
+* This process is classifier. Because of this, I choose and tried ***Lightgbm, XGBoost, CatBoost, Random Forest, Logistic Regression classifier models** by the library of Sklearn. My best result for **ROC-AUC Score** from these models is **0.80574 from Lightgbm***.
+* After new oversampling to data set improved best *ROC-AUC scored* around **0.815448 from Lightgbm** and other one is **0.871796 from VotingClassifier**. Use predicting of the test label using this **VotingClassifier** model.
+* Also Mailout-Test results are  {1: 3658, 0 : 33542} with VotingClassifier model.
 * **Kaggle** Submissoin files -> '../Last/data/kaggle_submission_file.csv' [Click it](https://github.com/huseyinelci2000/CustomerSegmentation/blob/master/Last/data/kaggle_submission_file.csv)
 * _**The detailed analysis** of the results can be read_ in this **[Medium post](https://medium.com/@huseyinelci2000/finding-new-customers-using-machine-learning-f03857c7f965)** or in **Arvato-Report of Customer Segmentation.pdf**
 
@@ -113,4 +114,10 @@ Thanks to **[Bertelsmann-Arvato](https://www.bertelsmann.com/)** for providing c
 ---
 <a name="10"></a>
 ## Conclusion
+* Trained a K-means model on the general-customers population data sets. Used the model to cluster the customer data for the customer segmentation and then was compared distributions of clusters.
+* **Stacking** and **Voting** were useful than a **single model** result.
+* It would be nice if we present our findings to the customer and receive feedback.
+* Two challenges of this project is **the large data size and the data imbalance.** Cleaning of this big data and applying GridSearcheCV to the models also requires serious time and machine performance. For the solution, it should spend some more time to get to know the columns and seek high performance without disabling the important columns.
+Implementing GridSearchCV with 10–128 variations for each model was a mistake for me. Was be wiser to focus only on LGBM and XGBoost models.
+
 **It was instructive, it was worth it.** You may touch the code. Have a enjoy. **:)**
