@@ -79,15 +79,19 @@ In this first section, an initial display of the relevant data and metrics were 
 Using the Kmean model, creating high-potential customer classes with Unsupervised Learning method within the general population.
 
 ### Mailout campaigns forecasting with Supervised Learning
-Implementation of supervised models such as LGBM, XGBoost, Catboost, Random Forest, Logistic Regression, and finally **VotingClassifier** for the forecasting of future company campaigns seeking to improve their performance.
+Implementation of supervised models such as Lightgbm, XGBoost, Catboost, Random Forest, Logistic Regression, and finally **VotingClassifier** for the forecasting of future company campaigns seeking to improve their performance.
 
 ### Kaggle Competition
 This used the chosen model to make predictions on the campaign data as part of a **Kaggle Competition**.
 
 <a name="7"></a>
 # Results
-* The detailed analysis of the results can be read in this **[Medium post](https://medium.com/@huseyinelci2000/finding-new-customers-using-machine-learning-f03857c7f965)** or in **Arvato-Report of Customer Segmentation.pdf**
+* This process is classifier. Because of this, I choose and tried *Lightgbm, XGBoost, CatBoost, Random Forest, Logistic Regression classifier models* by the library of Sklearn. My best result for *ROC-AUC Score* from these models is *0.79613 from Lightgbm*.
+* After new oversampling to data set improved best *ROC-AUC scored* around *0.8063 from Lightgbm* and other one is *0,8588 from VotingClassifier*. Use predicting of the test label using this *VotingClassifier* model.
+* Also Mailout-Test results are  {1: 3531, 0 : 33669} with VotingClassifier model.
 * **Kaggle** Submissoin files -> '../Last/data/kaggle_submission_file.csv' [Click it](https://github.com/huseyinelci2000/CustomerSegmentation/blob/master/Last/data/kaggle_submission_file.csv)
+* _**The detailed analysis** of the results can be read_ in this **[Medium post](https://medium.com/@huseyinelci2000/finding-new-customers-using-machine-learning-f03857c7f965)** or in **Arvato-Report of Customer Segmentation.pdf**
+
 
 <a name="8"></a>
 # Post to Medium
