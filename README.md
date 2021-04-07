@@ -1,9 +1,7 @@
 <img src="https://www.bertelsmann.com/media/startseite-buehne/bertelsmann-buehne-3200-800_stage_gt_1200_grid.jpg" width="100%">
 
 # Customer Segmentation Project
-In this repository contains the information presented to the project developed as a Capstone Project for Nanodegree Data Science of the Udacity platform.
-
-There are the data provided by Udacity and Arvato. As a result of the analyzes to be made using these data, the following are targeted:
+There are the data provided by Arvato. As a result of the analyzes to be made using these data, the following are targeted:
 * Implementation of unsupervised models for Customer and general population segmentation
 * mplementation of supervised models to predict future company campaigns and make them more efficient.
 
@@ -44,7 +42,7 @@ In this project, the purpose was to characterize what types of individuals are m
 
 <a name="3"></a>
 # Files
-The information to be used in this project is provided by Udacity and Arvato for the project. There are 4 data files and 2 information of attributes files associated with this project:
+The information to be used in this project is provided by Arvato for the project. There are 4 data files and 2 information of attributes files associated with this project:
 * **`Udacity_AZDIAS_052018.csv`**: <br>Demographics data for the general population of Germany; 891 211 persons (rows) x 366 features (columns).
 * **`Udacity_CUSTOMERS_052018.csv`**: <br>Demographics data for customers of a mail-order company; 191 652 persons (rows) x 369 features (columns).
 * **`Udacity_MAILOUT_052018_TRAIN.csv`**: <br>Demographics data for individuals who were targets of a marketing campaign; 42 982 persons (rows) x 367 (columns).
@@ -108,7 +106,6 @@ The **dataset** owner is [Bertelsmann-Arvato](https://www.bertelsmann.com/) The 
 Huseyin ELCI <br>
 [Github](https://github.com/huseyinelci2000)  |  [Kaggle](https://www.kaggle.com/huseyinelci)  |  [Linkedin](https://www.linkedin.com/in/huseyinelci/)
 #### Acknowledgements
-Thanks to **[Udacity](https://www.udacity.com/)** for editing and setting the projects.
 Thanks to **[Bertelsmann-Arvato](https://www.bertelsmann.com/)** for providing cool data with which we can create a cutting edge project.
 
 ---
